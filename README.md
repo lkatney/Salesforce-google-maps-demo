@@ -14,4 +14,4 @@ Also agents can set their location through map to give real time updates to cust
 Map is enabled with following features:  
 1. Searching nearby agents.  
 2. Customers can choose any location either by searching through input field, dragging marker to a place or by clicking anywhere on map.  
-3. Setting current loaction/any location to update.
+3. Setting current location/any location to update.

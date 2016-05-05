@@ -40,11 +40,11 @@ var isCommunity = '{!$CurrentPage.parameters.isCommunity}';*/
 function getAPIKey(){
     var device = getMobileOperatingSystem();
     if(device == 'IOS'){
-        return 'AIzaSyDfsXi0gOqQRhlTWxzI8mYP1Yt0IwhVFvM';
+        return 'AIzaSyC3mOmyO7aJEM2q-4zr0sX-aSwreqHS5UY';
     }else if(device == 'Android'){
-        return 'AIzaSyBiox0mu2qqjGYqFCH2L1lP4GINsail-C8';
+        return 'AIzaSyBKuWBi1Lu-e985IfPXtcQYyfQtJAPzz5c';
     }else{
-        return 'AIzaSyCarOwlrxEdx4ArQNVNJpHtcZSFYGSwdlU';
+        return 'AIzaSyCh_4KFc6hLgP33fdHRo698A6Q_pfDhIWY';
     }
 }
 
