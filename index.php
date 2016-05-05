@@ -1,1 +1,1 @@
-<?php include_once("googlemap.html"); ?>
+<?php include_once("index.html"); ?>
