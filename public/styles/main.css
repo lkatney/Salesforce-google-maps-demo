@@ -1,0 +1,17 @@
+/* custom style goes here */
+body{	text-align: center;
+	font-family: 'Inconsolata', serif;
+}
+#header{width: 100%;position: fixed;z-index: 100;height: 65px;top: 0;left: 0;right: 0;}
+h3{color: Black;}
+a{color: Black;cursor: pointer; font-family: 'Inconsolata', serif;}
+a:hover{color: #36A0FE;}
+#header a{margin: 0 10px;}
+div#right{position: fixed; right: 15px;top: 10px;}
+div#left{position: fixed; left: 15px;top: 10px;}
+a span{font-size: 15px;display: block;margin: 4px 0;}
+
+table{
+	width : 100%;
+	text-align: center;
+}

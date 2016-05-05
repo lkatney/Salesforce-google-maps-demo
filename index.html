@@ -1,30 +1,43 @@
 <html>
   <head>
-    <title>Google Map Demo</title>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
-    <meta charset="utf-8"/>
-
-    <!-- including styles used -->
-
-    <style type="text/css">
-      body, table{
-        text-align: center;
-      }
-
-      table{
-        padding: 20px;
-      }
-    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Google Maps On Salesforce</title> 
+      <meta charset="UTF-8">
+      <meta name="description" content="Salesforce Google Maps Demo">
+      <meta name="keywords" content="Salesforce, google-maps, google maps, find location on map">
+      <meta name="author" content="Lakshay Katney">
+    <link href="public/styles/octicons.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="public/styles/main.css" />
+     <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Inconsolata">
   </head>
   <body>
+    <div id="header">
+        <div id="left">
+            <a class="mega-octicon octicon-home" href="http://blog.lkatney.com/">
+                <span>Blog</span>
+            </a>
+        </div>
+        <h2>Using Google Maps On Salesforce</h2>
+        <div id="right">
+            <a class="mega-octicon octicon-mark-github" href="https://github.com/lkatney/AUTO-PLAY-VIDEO">
+                <span>Github</span>
+            </a>
+            <a class="mega-octicon octicon-package" href="http://blog.lkatney.com/products">
+                <span>
+                    More Products
+                </span>
+            </a>
+        </div>
+    </div>
     <table width="100%" height="100%">
       <tr width="100%" height="50%">
           <td width="50%">
-            <h2> Google Map being used to find agents</h2>
+            <h4> Google Map being used to find agents</h4>
             <iframe src="googlemap.html?search=true" width="90%" height="50%"></iframe>
           </td>
           <td width="50%">
-            <h2> Google Map being used by agent to set their location</h2>
+            <h4> Google Map being used by agent to set their location</h4>
             <iframe src="googlemap.html" width="90%" height="50%"></iframe>
           </td>
       </tr>
