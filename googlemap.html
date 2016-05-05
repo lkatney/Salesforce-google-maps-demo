@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Find nearby agents</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8"/>
+
+    <!-- including styles used -->
+    <link rel="stylesheet" type="text/css" href="style.js">
+
+    <!-- if are using this on salesforce service console -->
+    <!--<apex:includeScript value="/support/console/22.0/integration.js"/>-->
+  </head>
+  <body>
+    <input id="pac-input" class="controls" type="text" placeholder="Enter a location"/>
+    <div id="popup">
+        <div id="container">
+            <div id="msg"></div>
+        </div>
+    </div>
+    <div id="map"></div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
