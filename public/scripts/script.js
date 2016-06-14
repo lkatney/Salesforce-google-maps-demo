@@ -13,7 +13,7 @@ var DEFAULT_ZOOM = 10;
 //add api key 
 var API_KEY = getAPIKey();
 var map_script = document.createElement('script');
-map_script.setAttribute('src','https://maps.googleapis.com/maps/api/js?key='+API_KEY+'&libraries=places&callback=initMap&v=3.5&sensor=false');
+map_script.setAttribute('src','https://maps.googleapis.com/maps/api/js?key=AIzaSyCdeDZY5xPOgoUATdTpQKa9liCLu5n5tw4&libraries=places&callback=initMap&v=3.5&sensor=false');
 map_script.setAttribute("async", "");
 map_script.setAttribute("defer", "");
 document.body.appendChild(map_script);
